@@ -6,18 +6,18 @@
   <remote fetch="ssh://git@polychrome.ts-local.net/ts" name="ts"/>
   <remote fetch="https://github.com/meta-qt5/" name="qt5" />
 
-  <project remote="ts" revision="hardknott-tsterumo" name="terumo-meta-ts" path="sources/meta-ts"/>
+  <project remote="ts" revision="kirkstone-tsterumo" name="terumo-meta-ts" path="sources/meta-ts"/>
 
-  <project remote="yocto" revision="hardknott" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="hardknott" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="kirkstone" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="kirkstone" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="hardknott" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="kirkstone" name="fsl-community-bsp-base" path="sources/base">
   </project>
 
-  <project remote="freescale" revision="hardknott" name="meta-freescale" path="sources/meta-freescale"/>
-  <project remote="freescale" revision="hardknott" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="hardknott" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="hardknott" name="Documentation" path="sources/Documentation"/>
+  <project remote="freescale" revision="kirkstone" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="freescale" revision="kirkstone" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="kirkstone" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="kirkstone" name="Documentation" path="sources/Documentation"/>
 
-  <project remote="qt5" revision="hardknott" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="qt5" revision="kirkstone" name="meta-qt5" path="sources/meta-qt5" />
 </manifest>
