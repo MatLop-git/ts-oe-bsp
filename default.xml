@@ -7,7 +7,7 @@
   <remote fetch="https://github.com/meta-qt5/" name="qt5" />
   <remote fetch="https://github.com/mendersoftware/" name="mender" />
 
-  <project remote="ts" revision="kirkstone-tsterumo" name="terumo-meta-ts" path="sources/meta-ts"/>
+  <project remote="ts" revision="kirkstone-tsterumo" name="meta-ts" path="sources/meta-ts"/>
 
   <project remote="yocto" revision="kirkstone" name="poky" path="sources/poky"/>
   <project remote="oe" revision="kirkstone" name="meta-openembedded" path="sources/meta-openembedded"/>
